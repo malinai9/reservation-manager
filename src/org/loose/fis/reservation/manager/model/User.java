@@ -8,8 +8,11 @@ public class User {
     private String firstName;
     private String lastName;
 
+<<<<<<< HEAD
     // optional field (only if users will require it)
     private String nickName;
+=======
+>>>>>>> cleanup
     private int age;
 
     // field that says if the user owns a company that you can get reservations to
@@ -55,13 +58,7 @@ public class User {
         this.lastName = lastName;
     }
 
-    public String getNickName() {
-        return nickName;
-    }
 
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
-    }
 
     public int getAge() {
         return age;
